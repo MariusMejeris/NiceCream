@@ -1,0 +1,274 @@
+
+/*Basic Style*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+body {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+/*Navigation Style*/
+
+nav {
+    width: 100%;
+}
+
+ul {
+    padding: 10px 5px;
+}
+
+li {
+    border-bottom: 3px solid rgb(255, 255, 255);
+    margin: 15px 0;
+    transition: all 0.5s ease;
+}
+
+li:hover {
+    border-bottom: 3px solid rgb(62, 0, 121);
+}
+
+a {
+    display: block;
+    text-align: left;
+    padding: 15px;
+    background-color: #fff;
+    transition: all 0.5s ease;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+a:hover {
+color:rgb(62, 0, 121);
+}
+/*Header Style*/
+.main-header {
+    width: 100%;
+    background: url('images/header-image.jpg') no-repeat center fixed;
+    height: 700px;
+}
+
+.h-text {
+    font-size: 78px;
+    color: rgb(255, 255, 255);
+    padding-top: 55px;
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+.h-text-font {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+}
+
+
+.h-paragraph {
+    color: #fff;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 35px;
+    padding: 20px 0;
+}
+
+
+.h-button {
+    max-width: 200px;
+    margin: 115px auto 0 auto;
+    text-align: center;
+}
+
+
+.h-button a{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    background-color: rgb(255, 255, 255, 0.9);
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.h-button a:hover {
+    color: #FFFFFF;
+    background-color: rgb(62, 0, 121);
+}
+/*Products style*/
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container h2 {
+    width: 90%;
+    font-size: 45px;
+    font-weight: 500;
+    margin: 35px auto 25px auto;
+    color: rgb(32, 32, 32);
+}
+
+.fa-star {
+    color: #fc9cd7;
+    height: 50px;
+}
+
+.border {
+    width: 400px;
+    margin: 0 auto 32px auto;
+    border-bottom: 15px solid rgb(32, 32, 32);
+    border-radius: 5px;
+}
+
+.container-image {
+    width: 100%;
+    height: 400px;
+}
+
+.box {
+    width: 400px;
+    margin: 25px auto;
+    box-shadow: 1px 1px 5px 1px rgb(32, 32, 32, 0.5);
+    transition: all 0.5s ease;
+}
+
+.box:hover {
+
+    box-shadow: 1px 1px 5px 1px rgb(62, 0, 121);
+}
+.box h3 {
+    font-size: 26px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding-top: 25px;
+}
+
+.box-2 img {
+    height: 250px;
+    margin: 90px 0;
+}
+
+.section-button {
+    max-width: 200px;
+    margin: 55px auto 55px auto;
+}
+
+.section-button a {
+    color: #fff;
+    font-size: 18px;
+    background-color: rgb(62, 0, 121);
+    border:1px solid rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.section-button a:hover {
+    color: rgb(62, 0, 121);
+    background-color: #fff;
+    border:1px solid rgb(62, 0, 121);
+}
+
+
+/*Footer Style*/
+
+footer {
+    background-color: rgb(32, 32, 32, 0.8);
+    height: 100px;
+}
+
+footer p {
+    position: relative;
+    top: 50px;
+    color: #FFFFFF;
+}
+
+/*shop.html Style*/
+
+/*header*/
+
+.header-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 58px;
+}
+
+.header-shop h3 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+/*Form Style*/
+.form-container {
+    max-width: 80%;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 30px;
+}
+.form-container p {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#size,
+#flavor {
+    width: 200px;
+}
+
+
+.form-button { 
+    width: 200px;
+    margin: 15px 0;
+    padding: 15px;
+    font-size: 17px;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(62, 0, 121);
+    border:1px solid rgb(255, 255, 255);
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+
+.form-button:hover {
+    color: rgb(62, 0, 121);
+    background-color: #fff;
+    border:1px solid rgb(62, 0, 121);
+}
+
+/*media queries*/
+
+@media only screen and (min-width: 730px) {
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+  }
+
+  @media only screen and (min-width: 992px) {
+.border {
+    border: none;
+    width: 50px;
+}
+
+.boxes {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+      }

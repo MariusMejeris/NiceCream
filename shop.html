@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nice cream shopping page">
+    <title>Nice Cream Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+    <!--nav bar-->
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Shop</a></li>
+        <li><a href="index.html">Products</a></li>
+        <li><a href="index.html">About Us</a></li>
+        <li><a href="index.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+
+    <!--header-->
+<header class="header-shop">
+    <h1 class="header-text">Nice Cream</h1>
+            <div class="fa fa-star"></div>
+            <div class="fa fa-star"></div>
+            <div class="fa fa-star"></div>
+    <h3>Order Form</h3>
+</header>
+    <!--Form-->
+    <div class="form-container">
+            <form action="#" method="GET" id="OrderForm" class="order-form">
+                <p>Select Size</p>
+                    <div class="size-select">
+                        <select name="size" id="size">
+                            <option disabled="disabled" selected="selected" value="1">Size</option>
+                            <option value="small">Small(200ml)</option>
+                            <option value="medium">Medium (400ml)</option>
+                            <option value="large">Large (600ml)</option>
+                        </select>
+                    </div>
+                    <p>What Flavor you Would Like:</p>
+                    <div class="flavor-select">
+                        <select name="flavor" id="flavor">
+                            <option disabled="disabled" selected="selected" value="1">Flavor
+                            </option>
+                            <option value="banana">Banana</option>
+                            <option value="biscoti">Biscoti</option>
+                            <option value="cakeMix">Cake Mix</option>
+                            <option value="candyCane">Candy Cane</option>
+                            <option value="chocolate">Chocolate</option>
+                            <option value="hazelnut">Hazelnut</option>
+                            <option value="lemon">Lemon</option>
+                            <option value="mango">Mango</option>
+                            <option value="peppermint">Peppermint</option>
+                            <option value="pistachio">Pistachio</option>
+                            <option value="strawberry">Strawberry</option>
+                        </select>
+                    </div>
+                    <div class="mixins">
+                    <p>Select your mix-ins:</p>
+                            <input type="checkbox" id="extra1" name="extra1" value="strawberry">
+                            <label for="extra1">Strawberry</label>
+    
+                            <input type="checkbox" id="extra2" name="extra2" value="raspberry">
+                            <label for="extra2">Raspberry</label>
+    
+                            <input type="checkbox" id="extra3" name="extra3" value="almond">
+                            <label for="extra4">Almond</label>
+    
+                            <input type="checkbox" id="extra4" name="extra4" value="peanuts">
+                            <label for="extra5">Peanuts</label>
+    
+                            <input type="checkbox" id="extra5" name="extra5" value="gummy">
+                            <label for="extra3">Gummy Bears</label>
+    
+                            <input type="checkbox" id="extra6" name="extra6" value="toffe">
+                            <label for="extra6">Toffe Crunch</label>
+    
+                            <input type="checkbox" id="extra7" name="extra7" value="brownie">
+                            <label for="extra7">Brownie Bites</label>
+    
+                            <input type="checkbox" id="extra8" name="extra8" value="caramel">
+                            <label for="extra8">Caramel Swirls</label>
+    
+                            <input type="checkbox" id="extra9" name="extra9" value="oreo">
+                            <label for="extra9">Oreo Cookies</label>
+    
+                            <input type="checkbox" id="extra10" name="extra10" value="mm">
+                            <label for="extra10">M&M's</label>
+                    </div>
+                    <button class="form-button" type="submit" form="OrderForm" value="Submit">Add to my order</button>
+    
+    
+            </form>
+    </div>
+
+
+    <footer>
+        <p>Copyright© RobustDesigns 2020</p>
+    </footer>
+
+</body>
+</html>
